@@ -215,7 +215,7 @@ All other terms used in this specification are defined in this glossary.
 
 **DID.** Acronym for **decentralized identifier**. 
 
-**DID descriptor object (DDO).** A JSON data structure containing metadata describing an identity owner, including the cryptographic key material required for the identity owner to prove ownership and control of the **DID record**. A DDO may also contain other [attributes](https://en.wikipedia.org/wiki/Attribute_(computing)) or [claims](https://en.wikipedia.org/wiki/Claims-based_identity) describing the identity owner.
+**DID description object (DDO).** A JSON data structure containing metadata describing an identity owner, including the cryptographic key material required for the identity owner to prove ownership and control of the **DID record**. A DDO may also contain other [attributes](https://en.wikipedia.org/wiki/Attribute_(computing)) or [claims](https://en.wikipedia.org/wiki/Claims-based_identity) describing the identity owner.
 
 **DID fragment**. The portion of a **DID reference** that follows the first hash sign character ("#"). A DID fragment uses the same syntax as a **URI** fragment. See section 5.5. Note that a **DID fragment** MUST immediately follow a DID. If a DID reference includes a **DID path** followed by a fragment, that fragment is NOT a **DID fragment**.
 
